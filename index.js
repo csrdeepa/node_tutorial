@@ -38,7 +38,7 @@ const app=http.createServer((req,res)=>{
     
 })
 
-const PORT=process.env.PORT || 2500;
+const PORT=process.env.PORT || 3000;
 
 app.listen(PORT,()=>{
     console.log(`Hi!!!! server started ${PORT}`);
